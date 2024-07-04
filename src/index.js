@@ -10,7 +10,7 @@ const data={
   block:{
     btn:"supprimer",
     p:"grehoerpz zuh zpr zpryepf yzefyzoef zief zieozeufepçf ayepç fyPRYZEP9 Z",
-    radio:["Faire les cource du moi ","Aller chez le medecin"],
+    radio:["Faire les courses du mois ","Aller chez le medecin"],
     isRad:false
   },
   nt:{

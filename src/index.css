@@ -12,3 +12,4 @@ code {
     monospace;
 }
 main{position: relative;left: 200px;}
+.bot{display: flex; }

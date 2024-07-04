@@ -11,16 +11,21 @@ export default function NewTache(props) {
         return(
         <div className="row">
             <h2>Nouvelle Tache</h2>
-           <div className="col-3">
-            <Input txt="tache"/>
-            <TextArea/>
-            <Select main="jour" nb={31}/>
-            <Select main="mois" nb={12}/>
-            <Select main="annee" nb={2025}/>
-            <Radio is={props.newT.isRad} txtR={props.newT.radio} />
-            <Button txt={props.newT.btn}/>
+            <div className="col-12">
+                <Input txt="tache"/>
+                <TextArea/>
+            <div className="bot ">
+                date de fin
+                <Select main="jour" nb={31}/>
+                <Select main="mois" nb={12}/>
+                <Select main="annee" nb={2025}/>
             </div>
-
+            <div  className="bot">   
+                 <Radio is={props.newT.isRad} txtR={props.newT.radio} />
+                 <Button txt={props.newT.btn}/>
+            </div> 
+           
+        </div>
 
         </div>
     )

@@ -4,9 +4,10 @@ const Radio = (props)=>{
     <div>
     {props.txtR.map((txt,ind)=>{
         return(
-          <div key={ind} className="form-check">
+          <>
+          { props.is? "":<br/>}
             <input  key={ind} className="form-check-input" name={"ia"} type={props.is?"radio":"checkbox"} /> {txt}
-        </div>  
+        </>  
         )
     })}
         
