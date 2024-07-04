@@ -3,9 +3,9 @@ import Radio from "./Radio";
 
 const Block = (props)=>{
     return(
-       <div>
+       <div className="row" style={{width:300}}>
         <Radio is={props.block.isRad} txtR={props.block.radio}/>
-        <p>
+        <p style={{color:"grey"}}>
             {props.block.p}
         </p>
         <Button txt={props.block.btn}/>

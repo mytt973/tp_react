@@ -18,7 +18,6 @@ const data={
     btn:"enregister",
     isRad:true  
   }
-
 }
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,7 +25,7 @@ root.render(
  <main>
   <h1>Ma Todolist</h1>
   <Block block={data.block} />
-<div>________________________________________________________________________</div>
+<div>___________________________________________________________</div>
   <NewTache newT={data.nt}/>
  </main>
   </React.StrictMode>
