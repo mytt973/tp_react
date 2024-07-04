@@ -7,7 +7,7 @@ function Select  (props){
 
     return(
 <div>
-<select className=" form-select form-select-sm" aria-label=".form-select-sm example">
+<select className="grid-item form-select form-select-sm" aria-label=".form-select-sm example">
   <option defaultValue={true}>{props.main}</option>
         {arr.map((i,index)=>{
             return(

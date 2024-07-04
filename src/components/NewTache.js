@@ -14,17 +14,18 @@ export default function NewTache(props) {
             <div className="col-12">
                 <Input txt="tache"/>
                 <TextArea/>
-            <div className="bot ">
-                date de fin
+               
+            <div className="grid-container ">
+                 <p>data de fin</p>
                 <Select main="jour" nb={31}/>
                 <Select main="mois" nb={12}/>
                 <Select main="annee" nb={2025}/>
             </div>
-            <div  className="bot">   
-                 <Radio is={props.newT.isRad} txtR={props.newT.radio} />
-                 <Button txt={props.newT.btn}/>
+            <div  className="grid-container">   
+                 <p className="p">propiéter</p>
+                 <Radio is={props.newT.isRad} txtR={props.newT.radio} />  
             </div> 
-           
+             <Button txt={props.newT.btn}/>
         </div>
 
         </div>

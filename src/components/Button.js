@@ -1,6 +1,6 @@
 const Button = (props)=>{
     return(
-        <button className="btn btn-info">{props.txt}</button>
+        <button className="btn btn-info" type="button">{props.txt}</button>
     )
 }
 export default Button;

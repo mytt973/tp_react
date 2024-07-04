@@ -1,7 +1,7 @@
 const TextArea = ()=>{
     return(
         <>
-        <p></p> <textarea style={{width:200}}></textarea>
+        <p></p> <textarea placeholder="tape un truc" style={{width:400}}></textarea>
     </>)
 }
 export default TextArea ;
